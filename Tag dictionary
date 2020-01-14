@@ -1,6 +1,14 @@
+!DOCTYPE: selects the version of html used
+attributes: html
+example: <!DOCTYPE html>
+
 a: Link tag, used for embeding links in text.
 attributes: href
 example: A great <a href="https://www.youtube.com/">website</a>
+
+body: Contains the content of website
+attributes: none
+example: <body> This is an example </body>
 
 h1: Header tag, used to enlarge text and separate it from the rest of the text.
 attributes: none
@@ -9,6 +17,18 @@ examples: <h1>Christopher Stenhouse</h1>
 h2-6: Header tag, same as h1 but the smaller number the smaller the text.
 attributes: none
 examples: <h2>Things I like:</h2>
+
+head: things for your browser to think about when looking at your webpage
+attributes: none
+example: <head>
+
+<title> very nice </head>
+
+</head>
+
+html: marks the begining and end of your html code
+attributes: none
+example: <html> </html>
 
 img: Image tool, used for inserting images.
 attributes: src
@@ -37,3 +57,7 @@ examples: <ul>
 	<li>Historical weapons and armour</li>
 	<li>Intelligent discussion</li>
 </ul>
+
+title: controls the tab name.
+attributes: none
+example: <title>first website</title>
